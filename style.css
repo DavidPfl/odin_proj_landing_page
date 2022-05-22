@@ -1,5 +1,8 @@
 body {
     /* padding: 0 100px 0 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
@@ -84,4 +87,38 @@ button.signup-first {
     font-weight: bolder;
     height:30px;
     width: 100px;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 80px;
+}
+
+.container-one img {
+    border-radius: 16px;
+}
+
+.container-quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* padding: 80px; */   
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+}
+
+#quote-author{
+    align-self: flex-end;
+    font-size: 24px;
+    /* font-style: ; */
+    font-weight: bold;
 }
